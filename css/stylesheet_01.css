@@ -1,0 +1,58 @@
+html {
+	background: black;
+}
+body {
+	margin: auto;
+	width: 100%;
+	background-color: rgba(211,211,211,1);
+}
+
+/* THIS MAKE THE PAGE ALIGN CENTER */
+.center_page {
+	margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+/* MENU */
+#menu_first ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: rgba(50,255,255,1); /* HEADER COLOR */
+}
+#menu_first ul li {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	font-size: 65px;
+	background-color: rgba(50,100,100,0.5);
+	border-radius: 50%;
+	box-shadow: 0px 0px 200px rgba(50, 100, 100, 1);
+	-webkit-transform:scale(0.5);
+	-moz-transform:scale(0.5);
+	-o-transform:scale(0.5);
+	transform:scale(0.5);
+}
+/*
+#menu_first ul li:hover {
+	display: inline-block;
+	font-size: 65px;
+	background-color: rgba(50,100,100,0.5);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	-webkit-transform:scale(1.3) rotate(180deg);
+	-moz-transform:scale(1.3) rotate(180deg);
+	-o-transform:scale(1.3) rotate(180deg);
+	transform:scale(0.5) rotate(180deg);
+}
+*/
+#menu_first ul li a {
+	color: rgba(0,0,0,1);
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	font-size: 65px;
+}
